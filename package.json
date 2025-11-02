@@ -1,5 +1,17 @@
-"scripts": {
-  "dev": "vercel dev",
-  "build": "npm run build",  // Rimuovi 'vercel build'
-  "deploy": "vercel deploy"
+{
+  "name": "progetto-piante",
+  "version": "1.0.0",
+  "description": "Integrazione Jotform e PlantNet per l'identificazione delle piante",
+  "main": "api/jotform-webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",  // Fai un echo, se non è necessaria una build
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "22.x"
+  }
 }
