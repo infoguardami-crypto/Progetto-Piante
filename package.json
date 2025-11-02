@@ -12,16 +12,6 @@
     "node-fetch": "^2.6.1"
   },
   "engines": {
-    "node": "14.x"
-  }
-}
-{
-  "name": "progetto-piante",
-  "version": "1.0.0",
-  "engines": {
     "node": "22.x"
-  },
-  "dependencies": {
-    // Le tue dipendenze, come express, axios, etc.
   }
 }
