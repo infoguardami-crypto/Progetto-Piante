@@ -1,18 +1,5 @@
-{
-  "name": "progetto-piante",
-  "version": "1.0.0",
-  "description": "Integrazione Jotform e PlantNet per l'identificazione delle piante",
-  "main": "api/jotform-webhook.js",
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build",
-    "deploy": "vercel deploy"
-  },
-  "dependencies": {
-    "node-fetch": "^2.6.1"
-  },
-  "engines": {
-    "node": "22.x"
-  }
+"scripts": {
+  "dev": "vercel dev",
+  "build": "npm run build",  // Rimuovi 'vercel build'
+  "deploy": "vercel deploy"
 }
-
